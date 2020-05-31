@@ -1,11 +1,11 @@
-// 
+
 let SportsApi = "http://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=0b614f7cd01d4932a6ddb0fb8205fc82";
 
-// // let healthApi = "http://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=0b614f7cd01d4932a6ddb0fb8205fc82";
-// // let businessApi = "http://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=0b614f7cd01d4932a6ddb0fb8205fc82";
-// // let technologyApi = "http://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=0b614f7cd01d4932a6ddb0fb8205fc82";
-// // let scienceApi = "http://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=0b614f7cd01d4932a6ddb0fb8205fc82";
-// // --sports section starts here
+// let healthApi = "http://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=0b614f7cd01d4932a6ddb0fb8205fc82";
+// let businessApi = "http://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=0b614f7cd01d4932a6ddb0fb8205fc82";
+// let technologyApi = "http://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=0b614f7cd01d4932a6ddb0fb8205fc82";
+// let scienceApi = "http://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=0b614f7cd01d4932a6ddb0fb8205fc82";
+// --sports section starts here
 window
     .fetch(SportsApi)
     .then((sportsData) => {
@@ -13,7 +13,7 @@ window
         sportsData
             .json()
             .then((sports) => {
-                console.log(sports.articles);
+                // console.log(sports.articles);
                 let SportsFeed = sports.articles;
                 let firstSportsBlock = sports.articles;
 

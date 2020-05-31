@@ -147,7 +147,7 @@ width: 100%;
     }
     #sportsSection {
         border-right: 1px solid  #ccc;
-        height: 100vh;
+     
        background: #fff;
         box-shadow: 1px 1px 3px 1px #ccc;
     }
@@ -189,4 +189,30 @@ width: 100%;
         margin: 4px 10px 4px 0px;
         padding: 7px;
     }
+    .icon img {
+        height: 39px !important;
+        width: auto !important;
+        object-fit: scale-down;
+    
+    }
+    #WeatherTemplate .card-body{
+        background-color: blueviolet;
+    }
+    #WeatherTemplate .card-body p,
+    #WeatherTemplate  span {
+        padding: 4px;
+        text-transform: capitalize;
+        font-size: 12px;
+        color: #03a9f4;
+        font-weight: bold;
+        border-bottom: 1px solid #eee;
+       margin: 10px;
+    }
+    #WeatherTemplate .card-body  div {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+   
 

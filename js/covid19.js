@@ -2,7 +2,7 @@ window.fetch("https://api.covid19api.com/summary")
     .then((data) => {
         data.json()
             .then((covid) => {
-                console.log(covid.Global);
+                // console.log(covid.Global);
                 let Global = covid.Global;
                 document.getElementById("covidBlock").innerHTML = `
                 <section>

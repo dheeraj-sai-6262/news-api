@@ -1,6 +1,6 @@
 let entertainmentApi = "http://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=0b614f7cd01d4932a6ddb0fb8205fc82";
 
-// // // entertainment section starts here
+// // entertainment section starts here
 
 window
     .fetch(entertainmentApi)
